@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Project</title>
+    <script
+      src="https://kit.fontawesome.com/4bf289dd7a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    
+    <div class="container">
+        
+      <div class="row">
+        <div class="col-6">
+          <div class="tablo">
+          <h1 id="change-table">
+            25 </h1>
+            
+            
+          <h2><a href="#" id="change-celsium">℃ </a> | <a href="#" id="change-farenhaits"> ℉ </a></h2>
+           <div class="city"><h1 id="current-city"> Ljubljana</h1>
+          </h1></div></div>
+          <h3> 17 Jun,
+            Friday <br />
+            19:07
+          </h3>
+          <i class="fa-solid fa-cloud-sun-rain"></i>
+          <br />
+          <small class="tiny">Mostly sunny</small>
+          <div class="degrees">H:31℃ L:16℃</div>
+          <div class="col">
+            <form id="search-form">
+              <div class="form-group">
+                
+                      <div class="body">
+                <input
+                  type="city"
+                  class="form-control"
+                  id="example-City"
+                  placeholder="Enter the city" 
+                  
+                />
+
+    </div>
+    </form>
+                <button type="submit" class="btn btn-link">Submit</button>
+                <div class="sunday">
+                Sunday ☀️ 20℃</div>
+                 <div class="monday">
+              Monday 🌨 16℃ </div>
+              <div class="tuesday">
+              Tuesday 💨  19℃ </div>
+               <div class="wednesday">
+              Wednesday 🌦  17℃ </div>
+              <div class="thursday">
+              Thursday ☀️ 20℃
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/app.js"></script>
+  </body>
+</html>

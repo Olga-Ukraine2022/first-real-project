@@ -1,0 +1,126 @@
+body {
+  box-shadow: rgb(37 39 89 / 8%) 8px 8px 8px 8px;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(254, 255, 165) 0%,
+    rgb(255, 232, 182) 90%
+  );
+  border-radius: 45px;
+}
+
+h1 {
+  display: inline-block;
+  text-align: center;
+  color: #0069d9;
+  font-weight: bolder;
+  font-size: 40px;
+  margin: 5px 0 10px;
+  padding: 10px 0px 0px 10px;
+}
+h2 {
+  display: inline-block;
+  text-align: center;
+  color: #0069d9;
+  font-weight: bolder;
+  font-size: 20px;
+  margin: 5px 0 10px;
+  padding: 10px 30px 0px 10px;
+}
+h3 {
+  text-align: center;
+  color: #0069d9;
+  font-size: 20px;
+  margin: 5px 0 30px;
+}
+.tablo {
+  margin: 0 auto;
+  width: fit-content;
+}
+.fa-solid {
+  display: block;
+  text-align: center;
+  font-size: 60px;
+  color: #ffc93c;
+}
+.tiny {
+  text-align: center;
+  color: #0069d9;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 5px 0;
+  display: block;
+}
+.degrees {
+  text-align: center;
+  color: #0069d9;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 auto;
+}
+.form-group {
+  top: 48px;
+  right: 100px;
+  position: fixed;
+}
+.btn btn-link:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+.sunday {
+  text-align: left;
+  color: #0069d9;
+  font-size: 28px;
+  top: 120px;
+  right: 100px;
+  position: fixed;
+  margin: 30px 0 30px;
+}
+.monday {
+  text-align: left;
+  color: #0069d9;
+  font-size: 28px;
+  top: 165px;
+  right: 100px;
+  position: fixed;
+  margin: 30px 0 30px;
+}
+.tuesday {
+  text-align: left;
+  color: #0069d9;
+  font-size: 28px;
+  top: 210px;
+  right: 100px;
+  position: fixed;
+  margin: 30px 0 30px;
+}
+.wednesday {
+  text-align: left;
+  color: #0069d9;
+  font-size: 28px;
+  top: 255px;
+  right: 100px;
+  position: fixed;
+  margin: 30px 0 30px;
+}
+.thursday {
+  text-align: left;
+  color: #0069d9;
+  font-size: 28px;
+  top: 300px;
+  right: 100px;
+  position: fixed;
+  margin: 30px 0 30px;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px 60px;
+}
+.city {
+  text-align: center;
+  color: #0069d9;
+  font-weight: normal;
+  font-size: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
