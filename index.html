@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <title>Weather Project</title>
     <script
       src="https://kit.fontawesome.com/4bf289dd7a.js"
@@ -25,11 +26,11 @@
         <div class="col-6">
           <div class="tablo">
           <h1 id="change-table">
-            25 </h1>
+             </h1>
             
             
           <h2><a href="#" id="change-celsium">℃ </a> | <a href="#" id="change-farenhaits"> ℉ </a></h2>
-           <div class="city"><h1 id="current-city"> Ljubljana</h1>
+           <div class="city"><h1 id="current-city"> </h1>
           </h1></div></div>
           <h3> 17 Jun,
             Friday <br />
@@ -37,8 +38,8 @@
           </h3>
           <i class="fa-solid fa-cloud-sun-rain"></i>
           <br />
-          <small class="tiny">Mostly sunny</small>
-          <div class="degrees">H:31℃ L:16℃</div>
+          <small class="tiny" id="description"></small>
+          <div class="degrees">H:<span id="higest"></span>℃ L:<span id="lowest"></span>℃</div>
           <div class="col">
             <form id="search-form">
               <div class="form-group">
@@ -47,7 +48,7 @@
                 <input
                   type="city"
                   class="form-control"
-                  id="example-City"
+                  id="example-city"
                   placeholder="Enter the city" 
                   
                 />
@@ -74,3 +75,4 @@
     <script src="src/app.js"></script>
   </body>
 </html>
+
