@@ -124,3 +124,13 @@ h3 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+.footer {
+  display: block;
+  bottom: 0;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #0069d9;
+
+  font-weight: light;
+}
